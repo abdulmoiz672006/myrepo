@@ -1,0 +1,35 @@
+body {
+    /* Sets the background color for the body. The color is dark, likely black or near-black. */
+    background: #1e1e1e;
+    /* Sets the text color to white for contrast against the dark background. */
+    color: #ffffff;
+    /* Defines the font family, a common choice for coding environments. */
+    font-family: Arial, sans-serif;
+    /* Removes the default margin and padding that browsers apply to the body element. */
+    margin: 0;
+    padding: 0;
+    /* Enables a flex context for direct children, used here for centering content. */
+    display: flex;
+    /* Centers children horizontally in the flex container. */
+    justify-content: center;
+    /* Centers children vertically in the flex container. */
+    align-items: center;
+    /* Ensures the body takes the full height of the viewport. */
+    min-height: 100vh;
+}
+
+/* Assuming this block is for a main container or a box to center */
+.container {
+    /* Add a defined width to the container */
+    width: 80%;
+    /* Add padding inside the container */
+    padding: 20px;
+    /* Add a border or box shadow for visual separation (optional, but common) */
+    border: 1px solid #333;
+    /* Round the corners */
+    border-radius: 8px;
+    /* Set a slightly different background for the content area */
+    background: #252526;
+    /* Center the container text, or you might want to remove this if the content itself needs custom alignment */
+    text-align: center; 
+}
